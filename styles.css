@@ -1,0 +1,234 @@
+     
+.topnav {
+  float: right;
+  overflow: hidden;
+  background-color: rgb(249, 253, 253);
+  padding-top: 20px;
+  
+}
+
+.topnav a {
+  float: left;
+  color: #0c0c0c;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+h2{padding-top: 100px;}
+.topnav a:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(41, 188, 214);
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+.funding {
+  float: left;
+  overflow: hidden;
+}
+
+.funding .fundings {
+  font-size: 20px;  
+  border: none;
+  outline: none;
+  color: rgb(5, 5, 5);
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.funding-contents {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.funding-contents a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.funding-contents a:hover {
+  background-color: rgb(255, 255, 255);
+}
+
+.funding:hover .funding-contents {
+  display: block;
+  color:#04AA6D
+}
+.funding .fundings:hover{
+    color: #04AA6D;
+}
+.aboutus {
+  float: left;
+  overflow: hidden;
+}
+
+.aboutus .aboutbt {
+  font-size: 20px;  
+  border: none;
+  outline: none;
+  color: rgb(5, 5, 5);
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.aboutus-contents {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.aboutus-contents a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.aboutus-contents a:hover {
+  background-color: rgb(255, 255, 255);
+}
+
+.aboutus:hover .aboutus-contents {
+  display: block;
+  color:#04AA6D
+}
+.arrow {
+  border: solid black;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 3px;
+}
+.aboutus .aboutbt:hover{
+  color: #04AA6D;
+}
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+p{
+  position:absolute;
+  left: 100px;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+.row {margin: 0 -5px;}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+.card :hover{
+     color: rgb(8, 167, 114);
+     background-color: rgb(181, 206, 40);
+}
+.column :hover{
+     background-color: rgb(109, 175, 148);
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(30, 194, 9, 0.8);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+h2{
+  text-align: center;
+  color: rgb(9, 80, 56);
+}
+
+header{
+  height: 100px;
+  width: auto;
+}
+footer{
+  height: 250px;
+  width: auto;
+  background-color: #04AA6D;
+  padding-top: 20px;
+}
+.foot{
+  float: left;
+  height: 150px;
+  width: 400px;
+
+}
+
+.subscribe input {
+  background: #fff;
+  color: #060c22;
+  border: 0;
+  outline: none;
+  margin: 0;
+  padding: 9px 20px;
+  border-radius: 50px;
+  font-size: 14px;
+}
+
+.subscribe button {
+  border: 0;
+  padding: 9px 25px;
+  cursor: pointer;
+  background: #f82249;
+  color: #fff;
+  transition: all 0.3s ease;
+  outline: none;
+  font-size: 14px;
+  border-radius: 50px;
+}
+
+.subscribe button:hover {
+  background: #e0072f;
+}
+
+@media only screen and (min-width: 768px) {
+  .subscribe input {
+    min-width: 400px;
+}
+}
+.enter{
+  padding: 60px;
+  float: right; 
+}
+.col-auto{
+  float: right;
+
+}
