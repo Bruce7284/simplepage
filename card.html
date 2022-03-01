@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Task1</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Bruce Trading C ompany</title>
+    <link rel="stylesheet" href="css/styles.css">
 
 </head>
 <body>
-  
-    <header style="background-color: rgb(154, 240, 154);"> <p> <img src="images.png" alt="image not found" width="80" height="80"></p>
+ 
+    <header style="background-color: rgb(154, 240, 154);"> <p> <img src="img/images.png" alt="image not found" width="80" height="80"></p>
     <div class = "topnav">
         <a class="Active" href="#home">Home</a>
         <div class="funding">
@@ -92,16 +92,16 @@
 <h3>Our Management Team</h3>
 <section class="slideshow">
 <div class="itemsscr">  
-  <div class="item"><img src="1.jpg" alt=""><h4>Raju</h4>CEO</div>
-  <div class="item"><img src="2.jpg" alt=""><h4>Kumar</h4>Manager</div>
-  <div class="item"><img src="3.jpg" alt=""><h4>Aisu</h4>Asst.Manager</div>
-  <div class="item"><img src="4.jpg" alt=""><h4>Sakthi</h4>Tech</div>
-  <div class="item"><img src="5.jpg" alt=""><h4>Anjali</h4>Tester</div>
-  <div class="item"><img src="6.jpg" alt=""><h4>Jagan</h4>Developer</div>
-  <div class="item"><img src="7.jpg" alt=""><h4>Anu</h4>Cloud Engneer</div>
-  <div class="item"><img src="8.jpg" alt=""><h4>Balaji</h4>Data Analyst</div>
-  <div class="item"><img src="9.jpg" alt=""><h4>Vijay</h4>Marketing Manager</div>
-  <div class="item"><img src="10.jpg" alt=""><h4>Sneha</h4>SEO Analyst</div>
+  <div class="item"><img src="img/1.jpg" alt=""><h4>Raju</h4>CEO</div>
+  <div class="item"><img src="img/2.jpg" alt=""><h4>Kumar</h4>Manager</div>
+  <div class="item"><img src="img/3.jpg" alt=""><h4>Aisu</h4>Asst.Manager</div>
+  <div class="item"><img src="img/4.jpg" alt=""><h4>Sakthi</h4>Tech</div>
+  <div class="item"><img src="img/5.jpg" alt=""><h4>Anjali</h4>Tester</div>
+  <div class="item"><img src="img/6.jpg" alt=""><h4>Jagan</h4>Developer</div>
+  <div class="item"><img src="img/7.jpg" alt=""><h4>Anu</h4>Cloud Engneer</div>
+  <div class="item"><img src="img/8.jpg" alt=""><h4>Balaji</h4>Data Analyst</div>
+  <div class="item"><img src="img/9.jpg" alt=""><h4>Vijay</h4>Marketing Manager</div>
+  <div class="item"><img src="img/10.jpg" alt=""><h4>Sneha</h4>SEO Analyst</div>
 </div>
 </section>
 <br><br>
@@ -139,38 +139,38 @@
 <div class="login-popup">
   <div class="box">
      <div class="img-area">
-       <div class="img">
+       <div class="img" style="background-image: url('img/bg.jpg');">
        </div>
        <h3>welcome to Bruce Trading company</h3>
      </div>
      <div class="form">
        <div class="close">&times;</div>
        <h1>Log In</h1>
-       <form>
+       <form action="php/insert.php" method="post">
          <div class="form-group">
-           <input type="text" placeholder="Enter Your name" class="form-control">
+           <input type="text" placeholder="Enter Your name" class="form-control" name="username" required="">
          </div>
          <div class="form-group">
-           <input type="text" placeholder="Email" class="form-control">
+           <input type="text" placeholder="Email" class="form-control" name="email" required="">
          </div>
      <div class="form-group">
-           <input type="text" placeholder="Address" class="form-control">
+           <input type="text" placeholder="Address" class="form-control" name="address" required="">
          </div>
      <div class="form-group">
-           <input type="number" placeholder="Mobile Number" class="form-control">
+           <input type="number" placeholder="Mobile Number" class="form-control" name="mobilenumber" required="">
          </div>
          <div class="form-group">
            <label><input type="checkbox">
              Remember Me
            </label>
          </div>
-         <button type="button" class="btn">Submit</button>
+         <input class="btn" type="submit" name="register" >
        </form>
      </div>
   </div>
 </div>
 
-<script src="script.js"></script>
+<script src="js/script.js"></script>
 
 </body>
 </html>
